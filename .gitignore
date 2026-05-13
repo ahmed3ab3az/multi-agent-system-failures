@@ -1,0 +1,17 @@
+# Full converter output is large (~344 MB across 4 979 files). The
+# converter is deterministic — re-run `python -m convert.convert_traces`
+# to regenerate. A small committed sample lives in `research_traces_sample/`.
+research_traces/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
